@@ -38,7 +38,7 @@ class KioskCalc{
 }
 let customer1={
     fruitb:"Orange",
-    quantityb:2,
+    quantityb:3,
     pricee:function getTotalCost(){
               let result= customer1.quantityb*${this.fruitsPricelist[customer1.fruitb]}
               console.log(result);
