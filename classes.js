@@ -6,7 +6,7 @@ class Students{
     this.age=age 
     this.school=school
     this.hobby=function(){
-        return `i love playing`
+        return `i love playing games`
     }
 
 
