@@ -94,6 +94,20 @@ console.log(table.friends.country);
 console.log(table.friends.her);
 console.log(table.friends.nam);
 
+ //using arrays remove multiple items from an array.\
+ //use .splice to  remove many items by specifying index of item
+//create an array of fruits
+//using .splice() remove fruit Cherry 
+//
+let newArray=["Cherry","Banana","Grapes"]
+
+newArray.splice(-2);
+console.log(newArray);
+//closures
+
+
+
+
 
 
 

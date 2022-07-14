@@ -33,17 +33,32 @@ class KioskCalc{
         this.fruitb=fruitb
         this.quantityb=quantityb
         this.fruitsPricelist={"orange": 30, "mango": 15, "avocado": 40}
+        this.getTotalCost=function(){
+            return `you have bought ${quantityb}${fruitb}s  for sh${quantityb*this.price1} `
+
+
+        }
+           KioskCalc.prototype.price1=40;
     }
 
 }
-let customer1={
-    fruitb:"Orange",
-    quantityb:3,
-    pricee:function getTotalCost(){
-              let result= customer1.quantityb*${this.fruitsPricelist[customer1.fruitb]}
-              console.log(result);
+let customer1=new KioskCalc("avocado",8)
+console.log(customer1.getTotalCost());
+ 
+// let getTotalCost=function (){
+//     let result= customer1.quantityb*this.fruitsPricelist[customer1.fruitb]
+//     console.log(result);
+// }
+// console.log(KioskCalc.getTotalCost());
+// }
+// let customer1={
+//     fruitb:"orange",
+//     quantityb:3,
+//     pricee:function getTotalCost(){
+//               let result= customer1.quantityb*this.fruitsPricelist[customer1.fruitb]
+//               console.log(result);
 
-    }
-};
-console.log(customer1.pricee());
+//     }
+// };
+// console.log(customer1.pricee());
 
