@@ -34,15 +34,15 @@ class KioskCalc{
         this.quantityb=quantityb
         this.fruitsPricelist={"orange": 30, "mango": 15, "avocado": 40}
         this.getTotalCost=function(){
-            return `you have bought ${quantityb}${fruitb}s  for sh${quantityb*this.price1} `
+            return `you have bought ${quantityb} ${fruitb}s  for sh${quantityb*this.fruitsPricelist[fruitb]} `
 
 
         }
-           KioskCalc.prototype.price1=40;
+        //    KioskCalc.prototype.price1=40;
     }
 
 }
-let customer1=new KioskCalc("avocado",8)
+let customer1=new KioskCalc("orange",8)
 console.log(customer1.getTotalCost());
  
 // let getTotalCost=function (){
