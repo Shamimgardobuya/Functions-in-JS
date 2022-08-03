@@ -17,7 +17,8 @@ function iterating(){
 }
 iterating()
 let b=["Name","Somebody","People"];
-b.push("Orange")
+b.push("Orange")//fpr addying element to last position
+console.log(b);
 let c=new Array("Banana","Kiwi")
 //using map in your array 
 //
@@ -26,6 +27,7 @@ console.log(d);
 let e= c.map(function(item){
   return `I love ${item}`
 })
+console.log(e);
 //
 
 
@@ -103,14 +105,50 @@ let newArray=["Cherry","Banana","Grapes"]
 
 newArray.splice(-2);
 console.log(newArray);
+
 //closures
 
 
+//create a function thatreturns the first elementof the array
+//console the first element using indexing 
+function first(x){
+        console.log(x[0])
+}
+first([])
+// Write a simple JavaScript program to join all elements of the following array into a string.
+  //create a function and pass in a parameter
+  //create an empty string
+  ///loop through tthe elemenets of the array
+  //concatenate using plus sign
+
+  //call the function
+  function joining(p){
+    let colors=""
+    let i=0
+    while(i<p.length){
+      colors+=p[i]
+      console.log(colors)
+
+      i++
+
+  }
+  // for(let i=0;i<p.length;i++){
+  //   let _word=""
+  //   _word+=[i]
+  //   console.log(_word)
+  // }
+  // // colors+=p[i]  
+  }
+  joining(["Purple","Onion","Plant"])
 
 
-
-
-
+  // Write a JavaScript program which accept a number as input and insert dashes
+  //  (-) between each two even numbers.
+  
+  // For example if you accept 025468 the output should be 0-254-6-8
+// 
+//create a function
+  
 
 
 
