@@ -148,7 +148,11 @@ first([])
   // For example if you accept 025468 the output should be 0-254-6-8
 // 
 //create a function
-  
+      // create an array of numbers and print all the elements that are divisible by 2
+
+let arrOne=[1,2,3,4,5,6,78,9];
+let arrP=arrOne.map(item=> item%2==0)
+console.log(arrP);
 
 
 
