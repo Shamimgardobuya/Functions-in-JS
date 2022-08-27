@@ -151,8 +151,10 @@ first([])
       // create an array of numbers and print all the elements that are divisible by 2
 
 let arrOne=[1,2,3,4,5,6,78,9];
-let arrP=arrOne.map(item=> item%2==0)
-console.log(arrP);
+let arrP=item=>item%2==0
+// console.log(arrP);
+arrOne.map(arrP)
+
 
 
 

@@ -27,11 +27,13 @@ console.log(firstStudent.hobby());
 
 //new keyword for creating object
 function Studen(name,age,country){
-    this.name=name
-    this.age=age
-    this.country=country
+    // this.name=name
+    // this.age=age
+    console.log(` Hello ${name}`)
+    // this.country=country
 
 }
+Studen("Shamim",12,"Kenya")
 var pers=new Students("Javascript,") 
 //array constructors
 
